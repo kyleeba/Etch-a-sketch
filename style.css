@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(245, 232, 215);
+}
+
+header {
+    font-family: Georgia, 'Times New Roman';
+    padding: 25px;
+    text-align: center;
+}
+
+.button {
+    margin: 0 auto;
+    padding: 3px;
+    height: 32px;
+    text-align: center;
+    display: block;
+}
+
+#reset-button {
+    font-family: Georgia, 'Times New Roman';
+}
+
+.container {
+    padding: 0;
+    border: none;
+    margin: auto;
+    position: relative;
+    top: 25px;
+    outline: 2px solid black;
+    height: 550px;
+    width: 550px;
+}
+
+.grid {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    border: none;
+    outline: 1px solid black;
+}
